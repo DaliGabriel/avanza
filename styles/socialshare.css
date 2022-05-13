@@ -1,0 +1,22 @@
+.cbre-c-socialShare__items{
+    display:flex;
+    align-items:center
+}
+.cbre-c-socialShare__item:not(:last-child){
+    margin-right:24px
+}
+.cbre-c-socialShare__link{
+    display:inline-block;
+    color:var(--color-primary-1);
+    transition:color .25s cubic-bezier(.75,.02,.5,1)
+}
+.cbre-c-socialShare__link svg{
+    fill:currentColor
+}
+.cbre-c-socialShare__link:hover,.cbre-c-socialShare__link:active{
+    color:var(--color-primary-2)
+}
+.cbre-c-socialShare__link[href*="mailto:"] svg{
+    position:relative;
+    top:1px
+}

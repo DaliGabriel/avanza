@@ -1,0 +1,527 @@
+@charset "UTF-8";
+.cbre-c-quoteBundle{
+    position:relative;
+    overflow:hidden
+}
+.cbre-c-quoteBundle__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    padding:0;
+    position:relative
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+.cbre-c-quoteBundle__lhsWrapper{
+    width:100%!important;
+    padding:24px 24px 70px
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__lhsWrapper{
+        width:100%!important;
+        padding:24px 350px 80px 32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__lhsWrapper{
+        width:50%!important;
+        padding:0 150px 50px 0;
+        display:flex;
+        align-items:flex-end;
+        justify-content:flex-end
+    }
+}
+.cbre-c-quoteBundle__title{
+    font-family:financier display,georgia,serif;
+    font-size:4.8rem;
+    font-weight:400;
+    line-height:1em;
+    margin-bottom:0;
+    display:inline-block;
+    color:var(--color-primary-1);
+    z-index:99;
+    position:relative;
+    padding:24px 24px 0
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__title{
+        padding:32px 32px 0
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__title{
+        font-size:6.4rem;
+        max-width:50%;
+        padding:40px 0 0
+    }
+}
+.cbre-c-quoteBundle__entityname{
+    font-size:1.6rem;
+    font-family:calibre,arial,sans-serif;
+    line-height:2.2rem;
+    letter-spacing:-.01em;
+    font-weight:400;
+    margin-bottom:16px;
+    padding-right:16px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__entityname{
+        padding-right:0;
+        font-size:2rem;
+        line-height:2.4rem
+    }
+}
+.cbre-c-quoteBundle__entitydesignation{
+    color:var(--color-secondary-light-1)
+}
+.cbre-c-quoteBundle__lhsUpperContent{
+    position:relative;
+    border-bottom:none
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__lhsUpperContent{
+        width:100%!important;
+        padding-top:16px;
+        padding-bottom:40px;
+        margin-bottom:0;
+        border-bottom:4px solid var(--color-primary-1)
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__lhsUpperContent{
+        margin-bottom:32px;
+        padding-right:24px
+    }
+}
+.cbre-c-quoteBundle__lhsUpperContent:before{
+    content:"";
+    background-color:var(--color-primary-1);
+    width:100%;
+    position:absolute;
+    bottom:-4px;
+    height:4px;
+    left:100%;
+    display:none
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__lhsUpperContent:before{
+        display:block;
+        left:50%;
+        background-color:var(--color-primary-1)
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__lhsUpperContent:before{
+        left:100%;
+        width:9999px
+    }
+}
+.cbre-c-quoteBundle__lhsLowerContent{
+    width:91.66667%
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__lhsLowerContent{
+        padding-top:40px;
+        display:flex;
+        flex-direction:column;
+        justify-content:unset
+    }
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__lhsLowerContent{
+        padding-top:40px;
+        min-height:220px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__lhsLowerContent{
+        padding-top:48px;
+        padding-right:24px;
+        width:91.66667%;
+        justify-content:flex-end;
+        min-height:277px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__secondary-wrapper{
+        max-width:62%
+    }
+}
+.cbre-c-quoteBundle__quote{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    font-weight:400;
+    line-height:3rem;
+    color:var(--color-primary-1);
+    position:relative
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__quote{
+        padding-right:0
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__quote{
+        padding-right:24px;
+        font-size:3.2rem;
+        line-height:3.6rem;
+        min-height:145px
+    }
+}
+@media only screen and (min-device-width:1024px) and (max-device-width:1200px){
+    .cbre-c-quoteBundle__quote{
+        font-size:2.4rem;
+        line-height:3rem;
+        padding-right:24px
+    }
+}
+.cbre-c-quoteBundle__quote::before{
+    content:'“'
+}
+.cbre-c-quoteBundle__quote::after{
+    content:'”'
+}
+.cbre-c-quoteBundle__quote .scWebEditInput{
+    display:inline!important
+}
+.cbre-c-quoteBundle__primary-title{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    font-weight:400;
+    line-height:3rem;
+    padding-bottom:8px;
+    color:var(--color-primary-1)
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__primary-title{
+        margin-bottom:8px
+    }
+}
+.cbre-c-quoteBundle__primary-content{
+    font-family:calibre,arial,sans-serif;
+    font-size:1.6rem;
+    font-weight:400;
+    line-height:2.2rem;
+    margin-bottom:24px;
+    color:var(--color-primary-4)
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__cta{
+        margin-bottom:24px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__cta{
+        margin-bottom:0
+    }
+}
+.cbre-c-quoteBundle__middleboxwrap{
+    display:flex;
+    align-items:flex-end;
+    position:absolute;
+    bottom:0;
+    left:auto;
+    right:0;
+    transform:none;
+    min-height:auto;
+    display:none;
+    max-width:352px
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__middleboxwrap{
+        display:flex;
+        top:40%;
+        transform:translateY(-50%);
+        bottom:auto;
+        max-width:300px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__middleboxwrap{
+        left:50%;
+        transform:translateX(-50%);
+        right:auto;
+        top:auto;
+        bottom:0;
+        max-width:352px
+    }
+}
+@media only screen and (min-device-width:1024px) and (max-device-width:1200px){
+    .cbre-c-quoteBundle__middleboxwrap{
+        top:auto;
+        bottom:0;
+        min-height:auto;
+        justify-content:center
+    }
+}
+.cbre-c-quoteBundle__middleboxwrap img{
+    background-color:var(--color-white)
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__middleboxwrap img{
+        -o-object-fit:cover;
+        object-fit:cover;
+        min-height:431px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__middleboxwrap img{
+        -o-object-fit:cover;
+        object-fit:cover;
+        min-height:502px
+    }
+}
+.cbre-c-quoteBundle__middleboxwrapmobile{
+    margin-top:40px;
+    margin-bottom:40px;
+    position:relative;
+    width:100%
+}
+.cbre-c-quoteBundle__middleboxwrapmobile:before{
+    content:"";
+    background-color:var(--color-primary-1);
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    height:4px;
+    z-index:-1
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__middleboxwrapmobile{
+        display:none
+    }
+}
+.cbre-c-quoteBundle__middleboxwrapmobile img{
+    background-color:var(--color-white);
+    -o-object-fit:cover;
+    object-fit:cover;
+    min-height:309px
+}
+.cbre-c-quoteBundle__imageBoxmobile{
+    max-width:64%;
+    margin:0 auto
+}
+.cbre-c-quoteBundle__image{
+    display:block
+}
+.cbre-c-quoteBundle__threecolwrap{
+    width:100%!important;
+    position:relative;
+    display:flex;
+    flex-direction:column
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__threecolwrap{
+        flex-direction:row;
+        justify-content:space-between;
+        overflow:hidden
+    }
+}
+.cbre-c-quoteBundle__rhsWrapper{
+    width:100%!important;
+    padding:20px 32px
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__rhsWrapper{
+        width:calc(100% + 72px)!important;
+        margin-left:-36px;
+        padding:20px 32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__rhsWrapper{
+        width:50%!important;
+        display:flex;
+        align-items:flex-end;
+        justify-content:flex-end;
+        padding:20px 0 20px 32px
+    }
+}
+.cbre-c-quoteBundle__secondary-title{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    font-weight:400;
+    line-height:3rem;
+    margin-bottom:16px;
+    color:var(--color-primary-1)
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__secondary-title{
+        font-size:3.2rem;
+        line-height:3.6rem
+    }
+}
+@media(max-width:767px){
+    .cbre-c-quoteBundle__link-list{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap
+    }
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__link-list{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__link-list{
+        display:block
+    }
+}
+.cbre-c-quoteBundle__link-item{
+    padding-right:16px;
+    width:50%
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__link-item{
+        width:calc(50% - 6px)
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__link-item{
+        padding-right:0;
+        flex:1;
+        width:auto;
+        min-width:320px
+    }
+}
+@media only screen and (min-device-width:1024px) and (max-device-width:1200px){
+    .cbre-c-quoteBundle__link-item{
+        min-width:auto
+    }
+}
+.cbre-c-quoteBundle__link a{
+    font-weight:500;
+    line-height:1em;
+    letter-spacing:-.02em;
+    padding-top:16px;
+    padding-bottom:24px;
+    transition:-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    color:var(--color-primary-1);
+    border-top:1px solid var(--color-primary-5)
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__link a{
+        font-size:1.8rem;
+        letter-spacing:0
+    }
+}
+.cbre-c-quoteBundle__link a::before{
+    transition:opacity .25s cubic-bezier(.75,.02,.5,1);
+    content:'';
+    display:block;
+    position:absolute;
+    top:-1px;
+    left:0;
+    height:1px;
+    width:100%;
+    background:var(--color-primary-1);
+    opacity:0
+}
+.cbre-c-quoteBundle__link a::after{
+    margin-left:16px;
+    margin-right:8px;
+    content:'';
+    flex:none;
+    margin-top:4px;
+    width:8px;
+    height:14px;
+    background-image:url(data:image/svg+xml;
+    base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzE0JyB2aWV3Qm94PScwIDAgOCAxNCcgZmlsbD0nbm9uZScgc3Ryb2tlPScjMDAzZjJkJz48cGF0aCBkPSdNMSAxTDcgN0wxIDEzJyAvPjwvc3ZnPg==)
+}
+@media(min-width:768px){
+    .cbre-c-quoteBundle__link a::after{
+        margin-right:16px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-quoteBundle__link a::after{
+        margin-right:8px
+    }
+}
+.cbre-c-quoteBundle__link a:hover::before,.cbre-c-quoteBundle__link a:active::before{
+    opacity:1
+}
+.cbre-t-cbreim .cbre-c-quoteBundle{
+    background-color:var(--color-white)
+}
+@media(min-width:1024px){
+    .cbre-t-cbreim .cbre-c-quoteBundle{
+        background:linear-gradient(to right,RGB(var(--color-primary-6-rgb,0.7)) 50%,var(--color-secondary-1) 50%);
+        -o-object-fit:cover;
+        object-fit:cover;
+        min-height:502px
+    }
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__wrapper{
+    background-color:var(--color-primary-6)
+}
+@media(min-width:1024px){
+    .cbre-t-cbreim .cbre-c-quoteBundle__wrapper{
+        background-color:transparent
+    }
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__lhsWrapper{
+    background:var(--color-primary-6)
+}
+@media(min-width:768px){
+    .cbre-t-cbreim .cbre-c-quoteBundle__lhsUpperContent{
+        border-bottom:4px solid var(--color-white)
+    }
+    .cbre-t-cbreim .cbre-c-quoteBundle__lhsUpperContent::before{
+        background-color:var(--color-white)
+    }
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__rhsWrapper{
+    background:var(--color-secondary-1)
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__middleboxwrap{
+    background:var(--color-primary-6)
+}
+@media(min-width:1024px){
+    .cbre-t-cbreim .cbre-c-quoteBundle__middleboxwrap{
+        bottom:70px
+    }
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__secondary-title{
+    color:var(--color-white)
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__link a{
+    color:var(--color-white)
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__link a::before{
+    background:var(--color-primary-1)
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__link a::after{
+    filter:brightness(0) invert(1);
+    -webkit-filter:brightness(0) invert(1)
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__imageBoxmobile{
+    position:relative
+}
+.cbre-t-cbreim .cbre-c-quoteBundle__middleboxwrapmobile::before{
+    background-color:var(--color-white);
+    z-index:0
+}

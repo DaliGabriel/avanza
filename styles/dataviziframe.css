@@ -1,0 +1,40 @@
+.cbre-c-datavizIframe{
+    background-color:rgba(var(--color-primary-5-rgb),0.4);
+    max-width:1680px;
+    margin:0 auto
+}
+.cbre-c-datavizIframe .component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-datavizIframe .component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-datavizIframe .component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:832px){
+    .cbre-c-datavizIframe .component-content{
+        padding:0;
+        max-width:768px
+    }
+}
+.cbre-c-datavizIframe iframe{
+    width:100%!important;
+    border:none
+}
+.cbre-c-datavizIframe--nobg{
+    background-color:transparent
+}
+.cbre-c-datavizIframe--wideWidth .component-content{
+    max-width:1440px
+}

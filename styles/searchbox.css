@@ -1,0 +1,32 @@
+.cbre-c-searchBox__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-searchBox__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-searchBox__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+.cbre-c-searchBox__title{
+    font-family:financier display,georgia,serif;
+    font-size:4.8rem;
+    font-weight:400;
+    line-height:1em;
+    margin-bottom:32px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-searchBox__title{
+        margin-bottom:48px
+    }
+}

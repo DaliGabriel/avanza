@@ -1,0 +1,41 @@
+body{
+    font-family:calibre,arial,sans-serif;
+    font-size:1.6rem;
+    color:var(--color-text)
+}
+body[data-js-overlay-open]{
+    overflow:hidden
+}
+@media only screen and (max-width:1023px){
+    body[data-js-nav-open]{
+        overflow:hidden
+    }
+}
+body p,body h1,body h2,body pre{
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit;
+    color:inherit;
+    margin:unset;
+    padding:unset
+}
+button{
+    cursor:pointer
+}
+img{
+    max-width:100%;
+    height:auto
+}
+ul{
+    list-style:none
+}
+:focus{
+    outline:4px solid rgba(var(--color-primary-2-rgb),0.6);
+    outline-offset:1px
+}
+a{
+    text-decoration:none
+}
+a:active,a:focus:hover{
+    outline:0
+}

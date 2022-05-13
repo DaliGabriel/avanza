@@ -1,0 +1,28 @@
+.cbre-c-socialLinks{
+    display:flex;
+    align-items:center
+}
+.cbre-c-socialLinks__item:not(:last-child){
+    margin-right:24px
+}
+.cbre-c-socialLinks__link{
+    display:inline-block;
+    color:var(--color-primary-1);
+    transition:color .25s cubic-bezier(.75,.02,.5,1)
+}
+.cbre-c-socialLinks__link svg{
+    fill:currentColor
+}
+.cbre-c-socialLinks__link:hover,.cbre-c-socialLinks__link:active{
+    color:var(--color-primary-2)
+}
+.cbre-c-socialLinks__link[href*=linkedin] svg{
+    position:relative;
+    top:-1px
+}
+.cbre-t-cbreim .cbre-c-socialLinks__link{
+    color:var(--color-secondary-1)
+}
+.cbre-t-cbreim .cbre-c-socialLinks__link:hover,.cbre-t-cbreim .cbre-c-socialLinks__link:active{
+    color:var(--color-primary-2)
+}

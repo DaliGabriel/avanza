@@ -1,0 +1,162 @@
+.cbre-c-listicle__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    font-size:2rem;
+    line-height:3.2rem;
+    max-width:880px
+}
+@media(min-width:768px){
+    .cbre-c-listicle__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listicle__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listicle__wrapper{
+        font-size:2.2rem;
+        line-height:3.6rem
+    }
+}
+.cbre-c-listicle__wrapper a{
+    transition:-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-primary-4);
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:4px;
+    text-decoration-thickness:2px;
+    -webkit-text-decoration-color:var(--color-primary-2);
+    text-decoration-color:var(--color-primary-2)
+}
+.cbre-c-listicle__wrapper a:hover,.cbre-c-listicle__wrapper a:active{
+    -webkit-text-decoration-color:var(--color-primary-4);
+    text-decoration-color:var(--color-primary-4)
+}
+.cbre-c-listicle__wrapper a:hover,.cbre-c-listicle__wrapper a:active{
+    -webkit-text-decoration-color:var(--color-primary-4);
+    text-decoration-color:var(--color-primary-4)
+}
+.cbre-c-listicle__wrapper strong,.cbre-c-listicle__wrapper b{
+    font-weight:600
+}
+.cbre-c-listicle__wrapper em,.cbre-c-listicle__wrapper i{
+    font-style:italic
+}
+.cbre-c-listicle__heading{
+    font-size:2.4rem;
+    line-height:3rem;
+    font-family:financier display,georgia,serif;
+    margin-bottom:32px;
+    color:var(--color-primary-1)
+}
+.cbre-c-listicle__heading:not(:first-child){
+    margin-top:48px
+}
+@media(min-width:768px){
+    .cbre-c-listicle__heading{
+        font-size:3.2rem;
+        line-height:3.6rem
+    }
+    .cbre-c-listicle__heading:not(:first-child){
+        margin-top:72px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listicle__heading{
+        margin-bottom:40px
+    }
+}
+.cbre-c-listicle h4{
+    font-size:2rem;
+    line-height:3.2rem;
+    font-family:calibre,arial,sans-serif;
+    font-weight:500;
+    padding-bottom:16px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-listicle h4{
+        font-size:2.2rem;
+        line-height:3.6rem
+    }
+}
+.cbre-c-listicle__item:not(:last-child),.cbre-c-listicle p:not(:last-child){
+    margin-bottom:56px
+}
+@media(min-width:768px){
+    .cbre-c-listicle__item:not(:last-child),.cbre-c-listicle p:not(:last-child){
+        margin-bottom:64px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-listicle__item:not(:last-child),.cbre-c-listicle p:not(:last-child){
+        margin-bottom:80px
+    }
+}
+.cbre-c-listicle__items{
+    counter-reset:NumberList
+}
+.cbre-c-listicle__items li{
+    padding-left:80px;
+    position:relative
+}
+@media(min-width:768px){
+    .cbre-c-listicle__items li{
+        padding-left:176px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listicle__items li{
+        padding-left:224px
+    }
+}
+.cbre-c-listicle__items li::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:2.8em;
+    background-color:var(--color-secondary-light-1);
+    height:1px;
+    width:56px
+}
+@media(min-width:768px){
+    .cbre-c-listicle__items li::before{
+        width:120px;
+        top:3.2em
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listicle__items li::before{
+        width:168px
+    }
+}
+.cbre-c-listicle__items li:after{
+    font-size:4.8rem;
+    line-height:1em;
+    font-family:financier display,georgia,serif;
+    margin-bottom:0;
+    display:inline-block;
+    position:absolute;
+    top:.1em;
+    left:0;
+    color:var(--color-secondary-light-1);
+    counter-increment:NumberList;
+    content:counter(NumberList,decimal-leading-zero)
+}
+@media(min-width:768px){
+    .cbre-c-listicle__items li:after{
+        font-size:7.6rem;
+        margin-bottom:8px;
+        top:-.2em
+    }
+}

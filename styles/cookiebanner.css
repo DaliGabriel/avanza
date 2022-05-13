@@ -1,0 +1,140 @@
+.cbre-c-cookieBanner{
+    padding-top:32px;
+    padding-bottom:32px;
+    width:100%!important;
+    background-color:var(--color-system-5);
+    position:fixed;
+    bottom:0;
+    z-index:9
+}
+@media(min-width:768px){
+    .cbre-c-cookieBanner{
+        padding-top:40px;
+        padding-bottom:40px
+    }
+}
+@media print{
+    .cbre-c-cookieBanner{
+        display:none
+    }
+}
+.cbre-c-cookieBanner .component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-cookieBanner .component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-cookieBanner .component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-cookieBanner .component-content{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:flex-start
+    }
+}
+.cbre-c-cookieBanner__wrapper{
+    display:flex;
+    flex-direction:column
+}
+@media(min-width:768px){
+    .cbre-c-cookieBanner__wrapper{
+        flex-direction:row
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-cookieBanner__wrapper{
+        align-items:center
+    }
+}
+.cbre-c-cookieBanner__privacy{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start
+}
+@media(min-width:1024px){
+    .cbre-c-cookieBanner__privacy{
+        flex-direction:row;
+        justify-content:space-between
+    }
+}
+.cbre-c-cookieBanner__info{
+    font-family:calibre,arial,sans-serif;
+    font-size:1.6rem;
+    line-height:2.2rem;
+    color:var(--color-white)
+}
+@media(min-width:768px){
+    .cbre-c-cookieBanner__info{
+        padding-right:16px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-cookieBanner__info{
+        width:62.5%!important;
+        font-size:2rem;
+        line-height:2.6rem;
+        margin-right:4.16667%
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-cookieBanner__info{
+        margin-right:16.66667%
+    }
+}
+.cbre-c-cookieBanner__info a{
+    font-weight:500;
+    transition:-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-white);
+    -webkit-text-decoration:underline solid var(--color-white);
+    text-decoration:underline solid var(--color-white);
+    text-underline-offset:3px
+}
+.cbre-c-cookieBanner__info a:hover,.cbre-c-cookieBanner__info a:active{
+    text-decoration:underline;
+    -webkit-text-decoration-color:var(--color-primary-2);
+    text-decoration-color:var(--color-primary-2)
+}
+.cbre-c-cookieBanner__setting{
+    display:flex;
+    align-items:center;
+    padding-top:24px;
+    padding-bottom:32px
+}
+@media(min-width:768px){
+    .cbre-c-cookieBanner__setting{
+        padding-bottom:0
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-cookieBanner__setting{
+        padding-right:40px;
+        padding-left:8px;
+        padding-top:0
+    }
+}
+.cbre-c-cookieBanner__setting button{
+    color:var(--color-white);
+    background-color:transparent;
+    border:none
+}
+.cbre-c-cookieBanner__buttons{
+    display:flex;
+    justify-content:flex-end
+}
+.cbre-c-cookieBanner__close{
+    padding-right:24px
+}

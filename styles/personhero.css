@@ -1,0 +1,541 @@
+.cbre-c-personHero{
+    padding-top:96px
+}
+@media(min-width:768px){
+    .cbre-c-personHero{
+        padding-top:120px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero{
+        padding-top:152px
+    }
+}
+.cbre-c-personHero__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    max-width:none
+}
+@media(min-width:768px){
+    .cbre-c-personHero__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-personHero__wrapper{
+        position:relative;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between
+    }
+    .cbre-c-personHero__wrapper::before{
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:4px;
+        height:100%;
+        background:var(--color-primary-2)
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__wrapper::before{
+        width:8px
+    }
+}
+.cbre-c-personHero__heading{
+    position:relative
+}
+@media(min-width:768px){
+    .cbre-c-personHero__heading{
+        width:58.33333%!important
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__heading{
+        max-width:800px
+    }
+}
+.cbre-c-personHero__heading::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-24px;
+    width:4px;
+    height:100%;
+    background:var(--color-primary-2)
+}
+@media(min-width:768px){
+    .cbre-c-personHero__heading::before{
+        display:none
+    }
+}
+.ie11 .cbre-c-personHero__heading{
+    margin-right:16%
+}
+.cbre-c-personHero__name{
+    font-family:financier display,georgia,serif;
+    font-size:4.8rem;
+    font-weight:400;
+    line-height:1em;
+    padding-bottom:24px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__name{
+        font-size:8rem;
+        line-height:1em;
+        letter-spacing:-.01em
+    }
+}
+@media(min-width:1300px){
+    .cbre-c-personHero__name{
+        font-size:10.4rem;
+        line-height:10.6rem
+    }
+}
+.cbre-c-personHero__title{
+    line-height:2.2rem;
+    padding-bottom:16px
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__title{
+        font-size:2rem;
+        line-height:3.2rem;
+        padding-bottom:24px
+    }
+}
+.cbre-c-personHero__lic-soc{
+    margin-bottom:24px;
+    display:flex
+}
+.cbre-c-personHero__license{
+    line-height:2.2rem;
+    margin-right:32px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__license{
+        font-size:2rem;
+        line-height:3.2rem;
+        margin-right:40px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__social{
+        padding-top:7px
+    }
+}
+.cbre-c-personHero__image{
+    margin-bottom:24px;
+    position:relative;
+    width:100%
+}
+@media(min-width:768px){
+    .cbre-c-personHero__image{
+        width:33.33333%!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__image{
+        width:25%!important
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__image{
+        display:flex;
+        justify-content:flex-end
+    }
+}
+@media(min-width:1680px){
+    .cbre-c-personHero__image{
+        width:45.83333%!important
+    }
+}
+.cbre-c-personHero__image img{
+    width:100%;
+    aspect-ratio:1/1;
+    -o-object-fit:cover;
+    object-fit:cover
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__image img{
+        max-width:320px;
+        max-height:320px
+    }
+}
+.cbre-c-personHero__sub-heading{
+    font-size:2rem;
+    font-weight:500;
+    line-height:1em;
+    margin-bottom:16px;
+    color:var(--color-primary-3)
+}
+@media(min-width:768px){
+    .cbre-c-personHero__sub-heading{
+        width:25%!important;
+        padding-right:24px;
+        padding-top:8px;
+        margin-bottom:0;
+        flex:none
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__sub-heading{
+        width:29.16667%!important
+    }
+}
+.cbre-c-personHero__contact{
+    padding-top:16px;
+    border-top:1px solid var(--color-primary-5)
+}
+.cbre-c-personHero__contact:not(:last-child){
+    margin-bottom:8px
+}
+@media(min-width:768px){
+    .cbre-c-personHero__contact{
+        width:100%!important;
+        margin-top:16px;
+        display:flex
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__contact{
+        width:58.33333%!important
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__contact{
+        max-width:800px
+    }
+}
+@media(min-width:1680px){
+    .cbre-c-personHero__contact{
+        margin-right:25%
+    }
+}
+.cbre-c-personHero__contact .cbre-c-contactInfo{
+    padding-top:8px
+}
+.cbre-c-personHero__contact .cbre-c-contactInfo__item{
+    width:50%!important;
+    margin-bottom:24px
+}
+@media(min-width:768px){
+    .cbre-c-personHero__contact .cbre-c-contactInfo__item{
+        margin-bottom:16px;
+        width:auto!important
+    }
+}
+.cbre-c-personHero__expertise{
+    padding-top:16px;
+    border-top:1px solid var(--color-primary-5)
+}
+.cbre-c-personHero__expertise:not(:last-child){
+    margin-bottom:24px
+}
+@media(min-width:768px){
+    .cbre-c-personHero__expertise{
+        width:100%!important;
+        display:flex
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__expertise{
+        width:58.33333%!important
+    }
+    .cbre-c-personHero__expertise:not(:last-child){
+        margin-bottom:0
+    }
+    .cbre-c-personHero__contact+.cbre-c-personHero__expertise{
+        order:1
+    }
+    .cbre-c-personHero__image+.cbre-c-personHero__expertise{
+        margin-top:16px
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__expertise{
+        max-width:800px
+    }
+}
+@media(min-width:1680px){
+    .cbre-c-personHero__expertise{
+        margin-right:25%
+    }
+}
+@media(min-width:768px){
+    .cbre-c-personHero__expertise-list{
+        padding-top:8px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-personHero__expertise-list{
+        padding-top:2px
+    }
+}
+.cbre-c-personHero__expertise-item{
+    line-height:2.2rem;
+    display:inline
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__expertise-item{
+        font-size:2rem;
+        line-height:3.2rem
+    }
+}
+.cbre-c-personHero__expertise-item:not(:last-child)::after{
+    content:', ';
+    display:inline-block;
+    position:relative;
+    left:-2px
+}
+.cbre-c-personHero__team-link{
+    font-weight:500;
+    line-height:1em;
+    letter-spacing:-.02em;
+    padding-top:16px;
+    padding-bottom:24px;
+    transition:-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    color:var(--color-primary-1);
+    border-top:1px solid var(--color-primary-5)
+}
+@media(min-width:768px){
+    .cbre-c-personHero__team-link{
+        width:50%!important;
+        font-size:2rem;
+        letter-spacing:0
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__team-link{
+        width:25%!important;
+        margin-top:16px
+    }
+    .cbre-c-personHero__image+.cbre-c-personHero__team-link{
+        margin-left:75%
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-personHero__team-link{
+        max-width:320px
+    }
+}
+.cbre-c-personHero__team-link::before{
+    transition:opacity .25s cubic-bezier(.75,.02,.5,1);
+    content:'';
+    display:block;
+    position:absolute;
+    top:-1px;
+    left:0;
+    width:100%;
+    height:1px;
+    background:var(--color-primary-1);
+    opacity:0
+}
+.cbre-c-personHero__team-link::after{
+    margin-left:16px;
+    flex:none;
+    margin-top:4px;
+    content:'';
+    width:8px;
+    height:14px;
+    background-image:url(data:image/svg+xml;
+    base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzE0JyB2aWV3Qm94PScwIDAgOCAxNCcgZmlsbD0nbm9uZScgc3Ryb2tlPScjMDAzZjJkJz48cGF0aCBkPSdNMSAxTDcgN0wxIDEzJyAvPjwvc3ZnPg==)
+}
+@media(min-width:768px){
+    .cbre-c-personHero__team-link::after{
+        margin-right:16px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-personHero__team-link::after{
+        margin-right:8px
+    }
+}
+.cbre-c-personHero__team-link:hover::before,.cbre-c-personHero__team-link:active::before{
+    opacity:1
+}
+@media print{
+    .cbre-c-personHero{
+        padding-top:0;
+        margin-bottom:48px!important;
+        background:0 0
+    }
+    .cbre-c-personHero__wrapper{
+        padding-right:24px;
+        padding-left:24px;
+        width:100%;
+        max-width:1440px;
+        margin:0 auto;
+        position:relative;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        padding-right:10px!important;
+        padding-left:10px!important
+    }
+}
+@media print and (min-width:768px){
+    .cbre-c-personHero__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media print and (min-width:1024px){
+    .cbre-c-personHero__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media print{
+    .cbre-c-personHero__wrapper::before{
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:4px;
+        height:100%;
+        background:var(--color-primary-2)
+    }
+    .cbre-c-personHero__image{
+        min-height:0
+    }
+}
+@media print and (min-width:375px){
+    .cbre-c-personHero__image{
+        width:25%!important;
+        padding-bottom:25%
+    }
+}
+@media print and (min-width:768px){
+    .cbre-c-personHero__image{
+        width:25%!important;
+        padding-bottom:25%
+    }
+}
+@media print and (min-width:1024px){
+    .cbre-c-personHero__image{
+        width:25%!important;
+        padding-bottom:25%
+    }
+}
+@media print{
+    .cbre-c-personHero__image img{
+        height:100%!important;
+        width:100%!important
+    }
+    .cbre-c-personHero__heading{
+        color:var(--color-text)
+    }
+    .cbre-c-personHero__name{
+        font-family:financier display,georgia,serif;
+        font-size:3.6rem;
+        color:var(--color-primary-1)
+    }
+    .cbre-c-personHero__title{
+        padding-bottom:0;
+        font-size:1.4rem
+    }
+    .cbre-c-personHero__contact{
+        position:absolute;
+        padding-top:112px;
+        margin-top:0;
+        width:100%!important;
+        border-top:hidden!important
+    }
+}
+@media print and (min-width:375px){
+    .cbre-c-personHero__contact{
+        margin-bottom:-24px!important;
+        width:62.5%!important
+    }
+}
+@media print{
+    .cbre-c-personHero__contact .cbre-c-contactInfo{
+        width:100%;
+        display:flex;
+        padding-top:0
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__item{
+        width:33%!important
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link{
+        color:#fff;
+        font-size:0
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link:not([href*="mailto:"]):not([href*="tel:"]){
+        display:none
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link svg{
+        margin-right:8px;
+        width:12px
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link[href*="tel:"]::after{
+        font-size:1.2rem;
+        content:attr(href);
+        position:relative;
+        overflow:hidden;
+        color:var(--color-text);
+        text-indent:-1.2em
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link[href*="tel:"] svg{
+        position:relative;
+        top:1px
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link[href*="mailto:"]::after{
+        font-size:1.2rem;
+        content:attr(href);
+        position:relative;
+        overflow:hidden;
+        color:var(--color-text);
+        text-indent:-2.56em
+    }
+    .cbre-c-personHero__contact .cbre-c-contactInfo__link[href*="mailto:"] svg{
+        position:relative;
+        top:1px
+    }
+    .cbre-c-personHero__expertise{
+        font-size:1.2rem;
+        width:100%!important;
+        position:absolute;
+        width:62.5%!important;
+        padding-top:184px;
+        border-top:hidden!important
+    }
+    .cbre-c-personHero__expertise-item{
+        font-size:1.2rem
+    }
+    .cbre-c-personHero__license{
+        font-size:1.2rem
+    }
+    .cbre-c-personHero__social{
+        display:none
+    }
+    .cbre-c-personHero__team-link{
+        display:none
+    }
+}
+@media print{
+    #scCrossPiece,#scWebEditRibbon{
+        display:none
+    }
+    .cbre-c-person-hero-r{
+        margin:0!important
+    }
+}

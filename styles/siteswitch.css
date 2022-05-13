@@ -1,0 +1,139 @@
+.cbre-c-SiteSwitchBanner{
+    width:100%!important;
+    z-index:500;
+    position:relative;
+    display:none!important;
+    top:80px
+}
+@media(min-width:1024px){
+    body[data-js-has-chyron] .cbre-c-SiteSwitchBanner{
+        top:140px
+    }
+}
+@media print{
+    .cbre-c-SiteSwitchBanner{
+        display:none!important
+    }
+}
+.cbre-c-SiteSwitchBanner[data-js-pinned]{
+    z-index:1000
+}
+.cbre-c-SiteSwitchBanner[data-js-pinned] .component-content{
+    position:fixed;
+    z-index:1000;
+    top:0
+}
+body.on-page-editor .cbre-c-SiteSwitchBanner[data-js-pinned] .component-content{
+    position:relative
+}
+.cbre-c-SiteSwitchBanner .component-content{
+    width:100%!important;
+    padding-top:32px;
+    padding-bottom:32px;
+    background-color:var(--color-system-10)
+}
+@media(min-width:768px){
+    .cbre-c-SiteSwitchBanner .component-content{
+        padding-top:40px;
+        padding-bottom:40px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-SiteSwitchBanner .component-content{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:flex-start
+    }
+}
+.cbre-c-SiteSwitchBanner__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column
+}
+@media(min-width:768px){
+    .cbre-c-SiteSwitchBanner__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-SiteSwitchBanner__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-SiteSwitchBanner__wrapper{
+        flex-direction:row
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-SiteSwitchBanner__wrapper{
+        align-items:center
+    }
+}
+.cbre-c-SiteSwitchBanner__message{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:100%!important
+}
+@media(min-width:768px){
+    .cbre-c-SiteSwitchBanner__message{
+        flex-direction:row;
+        justify-content:space-between
+    }
+}
+.cbre-c-SiteSwitchBanner__info{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    line-height:3rem;
+    color:color-primary(3)
+}
+@media(min-width:768px){
+    .cbre-c-SiteSwitchBanner__info{
+        width:62.5%!important;
+        margin-right:4.16667%
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-SiteSwitchBanner__info{
+        width:62.5%!important;
+        margin-right:4.16667%
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-SiteSwitchBanner__info{
+        margin-right:16.66667%
+    }
+}
+.cbre-c-SiteSwitchBanner__info a{
+    font-weight:500;
+    transition:-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-white);
+    -webkit-text-decoration:underline solid var(--color-white);
+    text-decoration:underline solid var(--color-white);
+    text-underline-offset:3px
+}
+.cbre-c-SiteSwitchBanner__info a:hover,.cbre-c-SiteSwitchBanner__info a:active{
+    text-decoration:underline;
+    -webkit-text-decoration-color:color-primary(2);
+    text-decoration-color:color-primary(2)
+}
+.cbre-c-SiteSwitchBanner__setting{
+    justify-self:flex-end;
+    align-self:flex-end;
+    margin-top:16px
+}
+@media(min-width:768px){
+    .cbre-c-SiteSwitchBanner__setting{
+        align-self:unset;
+        margin-top:0
+    }
+}

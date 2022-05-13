@@ -1,0 +1,354 @@
+@media screen{
+    .cbre-c-executiveHero{
+        padding-top:104px;
+        background-color:var(--color-primary-3)
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero{
+        padding-top:80px
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero{
+        padding-top:0
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__wrapper{
+        padding-right:24px;
+        padding-left:24px;
+        width:100%;
+        max-width:1440px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        padding-left:0!important;
+        max-width:none
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__wrapper{
+        flex-direction:row
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__wrapper{
+        align-items:flex-end
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__image{
+        width:100%!important;
+        position:relative;
+        min-height:375px;
+        order:2;
+        max-width:800px
+    }
+    .ie11 .cbre-c-executiveHero__image{
+        position:relative;
+        overflow:hidden
+    }
+    .ie11 .cbre-c-executiveHero__image img{
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:auto;
+        height:auto;
+        max-width:none;
+        min-height:100%;
+        transform:translate(-50%,-50%)
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__image{
+        width:50%!important
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__image{
+        width:58.33333%!important;
+        min-height:800px;
+        order:1
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__image img{
+        position:absolute;
+        max-width:none;
+        width:calc(100% + 24px);
+        height:100%;
+        -o-object-fit:cover;
+        object-fit:cover
+    }
+    .ie11 .cbre-c-executiveHero__image img{
+        max-height:100%
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__image img{
+        width:calc(100% + 32px)
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__image img{
+        left:-32px
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__heading{
+        padding-left:24px;
+        margin-bottom:40px;
+        width:100%!important;
+        color:var(--color-white);
+        position:relative
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__heading{
+        width:50%!important;
+        padding-left:32px;
+        margin-bottom:56px;
+        padding-right:16px
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__heading{
+        width:41.66667%!important;
+        padding-left:56px;
+        margin-bottom:112px;
+        padding-right:0;
+        order:2
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__heading::before{
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:4px;
+        height:100%;
+        background:var(--color-primary-2)
+    }
+    .ie11 .cbre-c-executiveHero__heading{
+        margin-right:16%
+    }
+    .cbre-c-executiveHero__name{
+        font-family:financier display,georgia,serif;
+        font-size:6.4rem;
+        font-weight:400;
+        line-height:1em;
+        padding-bottom:24px;
+        padding-right:8px
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__name{
+        padding-bottom:16px
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__name{
+        font-size:12rem;
+        letter-spacing:-.01em;
+        padding-bottom:32px;
+        word-spacing:99999px
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__title{
+        line-height:2.2rem
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__title{
+        font-size:2.2rem;
+        line-height:3.6rem
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__lic-soc{
+        margin-top:24px;
+        display:flex
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-executiveHero__social{
+        padding-top:8px
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__social .cbre-c-socialLinks__link{
+        color:var(--color-white)!important
+    }
+    .cbre-c-executiveHero__social .cbre-c-socialLinks__link:hover{
+        color:var(--color-primary-2)!important
+    }
+    .cbre-c-executiveHero__contact{
+        width:100%!important
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__contact{
+        display:flex
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__item{
+        width:50%!important;
+        margin-top:24px
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__item{
+        width:auto!important
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link{
+        color:var(--color-white)
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link svg{
+        fill:var(--color-white)
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link-num{
+        border-bottom:4px solid var(--color-primary-2)
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link-num::before{
+        background:var(--color-primary-2)
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link-num::after{
+        background:0 0
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link-num::after{
+        width:50%;
+        left:3.25em
+    }
+}
+@media screen{
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link:hover svg{
+        fill:var(--color-primary-2)
+    }
+}
+@media print{
+    .cbre-c-executiveHero{
+        padding-top:0;
+        margin-bottom:24px!important;
+        background:0 0
+    }
+    .cbre-c-executiveHero__wrapper{
+        padding-right:24px;
+        padding-left:24px;
+        width:100%;
+        max-width:1440px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:row-reverse;
+        padding-right:10px!important;
+        padding-left:10px!important
+    }
+}
+@media print and (min-width:768px){
+    .cbre-c-executiveHero__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media print and (min-width:1024px){
+    .cbre-c-executiveHero__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media print{
+    .cbre-c-executiveHero__image{
+        width:160px!important;
+        height:160px;
+        min-height:0
+    }
+    .cbre-c-executiveHero__image img{
+        width:100%;
+        height:100%;
+        -o-object-fit:cover;
+        object-fit:cover
+    }
+    .cbre-c-executiveHero__heading{
+        flex:1;
+        color:var(--color-text)
+    }
+    .cbre-c-executiveHero__name{
+        font-family:financier display,georgia,serif;
+        font-size:3.6rem;
+        color:var(--color-primary-1)
+    }
+    .cbre-c-executiveHero__title{
+        font-size:1.4rem
+    }
+    .cbre-c-executiveHero__contact{
+        padding-top:16px
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo{
+        display:block
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link{
+        color:#fff;
+        font-size:0
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link:not([href*="mailto:"]):not([href*="tel:"]){
+        display:none
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link svg{
+        margin-right:8px;
+        width:12px
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link[href*="tel:"]::after{
+        font-size:1.2rem;
+        content:attr(href);
+        position:relative;
+        overflow:hidden;
+        color:var(--color-text);
+        text-indent:-1.2em
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link[href*="tel:"] svg{
+        position:relative;
+        top:1px
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link[href*="mailto:"]::after{
+        font-size:1.2rem;
+        content:attr(href);
+        position:relative;
+        overflow:hidden;
+        color:var(--color-text);
+        text-indent:-2.56em
+    }
+    .cbre-c-executiveHero__contact .cbre-c-contactInfo__link[href*="mailto:"] svg{
+        position:relative;
+        top:1px
+    }
+    .cbre-c-executiveHero__social{
+        display:none
+    }
+}
+@media print{
+    #scCrossPiece,#scWebEditRibbon{
+        display:none
+    }
+    .cbre-c-person-hero-r{
+        margin:0!important
+    }
+}

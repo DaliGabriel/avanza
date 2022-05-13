@@ -1,0 +1,36 @@
+@media(min-width:375px){
+    .cbre-c-officeGrid{
+        padding-left:16px;
+        padding-right:16px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-officeGrid{
+        padding-left:112px;
+        padding-right:112px
+    }
+}
+.cbre-c-officeGrid-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
+.cbre-c-officeGrid-column{
+    flex-direction:column
+}
+@media(min-width:375px){
+    .cbre-c-officeGrid-column{
+        width:100%!important
+    }
+}
+@media(min-width:768px){
+    .cbre-c-officeGrid-column{
+        width:49%!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-officeGrid-column{
+        width:31%!important
+    }
+}

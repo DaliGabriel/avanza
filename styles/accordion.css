@@ -1,0 +1,168 @@
+.cbre-c-accordion{
+    width:100%
+}
+.cbre-c-accordion__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-accordion__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-accordion__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:832px){
+    .cbre-c-accordion__wrapper{
+        padding:0;
+        max-width:768px
+    }
+}
+@media print{
+    .cbre-c-accordion__wrapper{
+        max-width:none;
+        padding-right:10px!important;
+        padding-left:10px!important
+    }
+}
+.cbre-c-accordion__title{
+    font-size:3.2rem;
+    line-height:3.6rem;
+    font-family:financier display,georgia,serif;
+    margin-bottom:32px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-accordion__title{
+        font-size:4.8rem;
+        line-height:1em;
+        margin-bottom:40px
+    }
+}
+@media print{
+    .cbre-c-accordion__title{
+        font-size:2.2rem;
+        margin-bottom:16px
+    }
+}
+.cbre-c-accordion__heading{
+    margin-bottom:16px;
+    width:100%
+}
+.cbre-c-accordion__heading-btn{
+    padding-top:16px;
+    padding-bottom:16px;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    border:none;
+    text-align:left;
+    color:var(--color-primary-1);
+    border-bottom:1px solid var(--color-primary-5);
+    background:0 0
+}
+.cbre-c-accordion__heading-btn::after{
+    margin-left:32px;
+    transition:transform .5s cubic-bezier(.75,.02,.5,1);
+    content:'';
+    display:block;
+    flex:none;
+    position:relative;
+    top:.5em;
+    width:1.5em;
+    height:1.5em;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image:url(data:image/svg+xml;
+    )
+}
+.cbre-c-accordion__heading-btn:focus{
+    outline:0
+}
+.cbre-c-accordion__heading-btn:focus-visible{
+    outline:0;
+    box-shadow:0 0 0 4px rgba(var(--color-primary-2-rgb),0.6)
+}
+.cbre-c-accordion__heading-btn[aria-expanded=true]::after{
+    transform:rotate(180deg)
+}
+@media print{
+    .cbre-c-accordion__heading-btn{
+        padding:0;
+        border:none
+    }
+    .cbre-c-accordion__heading-btn::after{
+        display:none
+    }
+}
+.cbre-c-accordion__heading-text{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    font-weight:400;
+    line-height:3rem;
+    transition:-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    display:inline-block;
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:3px;
+    text-decoration-thickness:2px
+}
+button:hover .cbre-c-accordion__heading-text,button:active .cbre-c-accordion__heading-text{
+    color:var(--color-primary-1);
+    -webkit-text-decoration-color:var(--color-primary-1);
+    text-decoration-color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-accordion__heading-text{
+        font-size:3.2rem;
+        line-height:3.6rem;
+        letter-spacing:0
+    }
+}
+@media print{
+    .cbre-c-accordion__heading-text{
+        font-size:2.2rem
+    }
+}
+.cbre-c-accordion__section{
+    transition:height .5s cubic-bezier(.75,.02,.5,1);
+    display:block;
+    height:auto;
+    overflow:hidden
+}
+.cbre-c-accordion__section>*{
+    transition:opacity .3s .25s;
+    opacity:1
+}
+@media screen{
+    .cbre-c-accordion__section[aria-hidden=true]{
+        display:none;
+        height:0
+    }
+    .cbre-c-accordion__section[aria-hidden=true]>*{
+        opacity:0
+    }
+}
+.cbre-c-accordion__section .cbre-c-wysiwyg__wrapper{
+    padding-right:0;
+    padding-left:0;
+    padding-top:16px;
+    padding-bottom:32px
+}
+@media print{
+    .cbre-c-accordion__section .cbre-c-wysiwyg__wrapper{
+        margin-bottom:24px;
+        padding:0!important
+    }
+}

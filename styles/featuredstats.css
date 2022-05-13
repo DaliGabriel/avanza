@@ -1,0 +1,223 @@
+@media print{
+    .cbre-c-featuredStats{
+        margin-top:40px;
+        margin-bottom:24px!important
+    }
+}
+.cbre-c-featuredStats .component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-featuredStats .component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-featuredStats .component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media print{
+    .cbre-c-featuredStats .component-content{
+        padding-right:10px!important;
+        padding-left:10px!important
+    }
+}
+.cbre-c-featuredStats__wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
+.cbre-c-featuredStats__grid{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-4px;
+    margin-left:-4px;
+    width:100%;
+    justify-content:flex-start
+}
+@media(min-width:768px){
+    .cbre-c-featuredStats__grid{
+        margin-right:-8px;
+        margin-left:-8px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-featuredStats__grid{
+        justify-content:center
+    }
+}
+@media print{
+    .cbre-c-featuredStats__grid{
+        justify-content:space-between;
+        margin:0!important
+    }
+}
+.cbre-c-featuredStats__grid .scEnabledChrome{
+    display:flex
+}
+.cbre-c-featuredStats__grid-item{
+    padding-right:4px;
+    padding-left:4px
+}
+@media(min-width:768px){
+    .cbre-c-featuredStats__grid-item{
+        padding-right:8px;
+        padding-left:8px
+    }
+}
+@media screen{
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(2),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(2)~li,.cbre-c-featuredStats__grid-item:first-child:nth-last-child(3),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(3)~li,.cbre-c-featuredStats__grid-item:first-child:nth-last-child(4),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(4)~li{
+        width:100%!important;
+        margin-left:8.33333%
+    }
+}
+@media screen and (min-width:768px){
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(2),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(2)~li{
+        width:33.33333%!important;
+        margin-left:8.33333%
+    }
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(3),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(3)~li{
+        width:33.33333%!important;
+        margin-left:0%
+    }
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(4),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(4)~li{
+        width:33.33333%!important;
+        margin-left:8.33333%
+    }
+    .cbre-c-featuredStats__grid-item:first-child,.cbre-c-featuredStats__grid-item:nth-child(3){
+        margin-left:0%!important
+    }
+}
+@media screen and (min-width:1024px){
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(2),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(2)~li{
+        width:33.33333%!important;
+        margin-left:8.33333%
+    }
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(3),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(3)~li{
+        width:33.33333%!important;
+        margin-left:0%
+    }
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(4),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(4)~li{
+        width:25%!important;
+        margin-left:0%
+    }
+    .cbre-c-featuredStats__grid-item:first-child{
+        margin-left:0%!important
+    }
+}
+@media screen and (min-width:1440px){
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(2),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(2)~li{
+        width:25%!important;
+        margin-left:8.33333%
+    }
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(3),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(3)~li{
+        width:25%!important;
+        margin-left:0%
+    }
+    .cbre-c-featuredStats__grid-item:first-child:nth-last-child(4),.cbre-c-featuredStats__grid-item:first-child:nth-last-child(4)~li{
+        width:20.83333%!important;
+        margin-left:0%
+    }
+    .cbre-c-featuredStats__grid-item:first-child{
+        margin-left:0%!important
+    }
+}
+@media print{
+    .cbre-c-featuredStats__grid-item{
+        width:45.83333%!important;
+        margin-bottom:24px;
+        padding:0!important
+    }
+}
+.cbre-c-Stats{
+    margin:0
+}
+.cbre-c-Stats::before,.cbre-c-Stats::after{
+    content:'';
+    display:block;
+    height:1px;
+    background:var(--color-primary-5)
+}
+@media print{
+    .cbre-c-Stats::before,.cbre-c-Stats::after{
+        border-top:1px solid var(--color-primary-5);
+        height:0;
+        margin-bottom:8px!important;
+        background:0 0
+    }
+}
+.cbre-c-Stats::before{
+    margin-bottom:16px;
+    width:calc(100% + 32px)
+}
+@media(min-width:768px){
+    .cbre-c-Stats::before{
+        margin-bottom:24px;
+        width:100%
+    }
+}
+.cbre-c-Stats::after{
+    margin-top:40px;
+    position:relative;
+    top:1px;
+    background:0 0
+}
+@media(min-width:1024px){
+    .cbre-c-Stats::after{
+        display:none
+    }
+}
+@media print{
+    .cbre-c-Stats::after{
+        display:none
+    }
+}
+.cbre-c-Stats__title{
+    font-family:calibre,arial,sans-serif;
+    font-size:6.4rem;
+    line-height:1em;
+    letter-spacing:-.01em;
+    padding-bottom:16px;
+    color:var(--color-primary-1)
+}
+@media(min-width:768px){
+    .cbre-c-Stats__title{
+        word-break:break-all
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-Stats__title{
+        word-break:unset
+    }
+}
+@media print{
+    .cbre-c-Stats__title{
+        font-size:3.2rem;
+        padding-bottom:8px
+    }
+}
+.cbre-c-Stats__description{
+    font-family:financier display,georgia,serif;
+    font-size:1.6rem;
+    line-height:2rem;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    .cbre-c-Stats__description{
+        font-size:2.4rem;
+        line-height:3rem
+    }
+}
+@media print{
+    .cbre-c-Stats__description{
+        font-size:1.6rem;
+        line-height:1em
+    }
+}

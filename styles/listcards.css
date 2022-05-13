@@ -1,0 +1,465 @@
+.cbre-c-listCards>.component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    margin-bottom:24px
+}
+@media(min-width:768px){
+    .cbre-c-listCards>.component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards>.component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-listCards>.component-content{
+        margin-bottom:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards>.component-content{
+        margin-bottom:48px
+    }
+}
+.cbre-c-listCards__main>div:not(:last-child){
+    margin-bottom:80px
+}
+.cbre-c-listCards__wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
+@media(min-width:1024px){
+    .cbre-c-listCards__wrapper{
+        flex-direction:column;
+        justify-content:flex-start
+    }
+}
+@media(min-width:1200px){
+    .cbre-c-listCards__wrapper{
+        margin-left:8.33333%
+    }
+}
+.cbre-c-listCards__col-1{
+    margin-bottom:16px;
+    width:100%!important
+}
+@media(min-width:768px){
+    .cbre-c-listCards__col-1{
+        margin-bottom:8px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards__col-1{
+        margin-bottom:0
+    }
+}
+.cbre-c-listCards__eyebrow{
+    margin-bottom:16px
+}
+.cbre-c-listCards__title{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    font-weight:400;
+    line-height:3rem
+}
+@media(min-width:1024px){
+    .cbre-c-listCards__title{
+        font-size:3.2rem;
+        line-height:3.6rem
+    }
+}
+.cbre-c-listCards__title-link{
+    transition:-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-primary-1);
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:3px;
+    text-decoration-thickness:2px;
+    color:var(--color-primary-1)!important;
+    text-decoration-thickness:2px!important
+}
+.cbre-c-listCards__title-link:hover,.cbre-c-listCards__title-link:active{
+    -webkit-text-decoration-color:var(--color-primary-1);
+    text-decoration-color:var(--color-primary-1)
+}
+.cbre-c-listCards__details{
+    font-size:1.4rem;
+    line-height:1.8rem;
+    margin-bottom:16px
+}
+.cbre-c-listCards__date{
+    margin-right:40px
+}
+.cbre-c-listCards__authors{
+    font-size:1.4rem;
+    line-height:1.8rem;
+    margin-bottom:8px;
+    color:var(--color-primary-1)
+}
+.cbre-c-listCards__author{
+    color:var(--color-primary-1)
+}
+.cbre-c-listCards__author:not(:last-child)::after{
+    content:', ';
+    position:relative;
+    left:-2px
+}
+.cbre-c-listCards__author-link{
+    transition:all .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-primary-4);
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:2px;
+    text-decoration-thickness:1px;
+    color:var(--color-primary-1)
+}
+.cbre-c-listCards__author-link:hover,.cbre-c-listCards__author-link:active{
+    color:var(--color-primary-1);
+    -webkit-text-decoration-color:var(--color-primary-2);
+    text-decoration-color:var(--color-primary-2)
+}
+.cbre-c-listCards__image{
+    height:100%
+}
+@media(min-width:768px){
+    .cbre-c-listCards__image{
+        margin-top:0
+    }
+}
+.cbre-c-listCards__image img{
+    margin-top:16px;
+    width:160px;
+    height:160px;
+    -o-object-fit:cover;
+    object-fit:cover;
+    position:relative
+}
+@media(min-width:768px){
+    .cbre-c-listCards__image img{
+        margin-top:0;
+        top:16px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards__image img{
+        height:152px;
+        width:152px
+    }
+}
+.cbre-c-listCards__jobTitle{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    padding-bottom:24px
+}
+.cbre-c-listCards__description{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical
+}
+.cbre-c-listCards__description:not(:last-child){
+    margin-bottom:24px
+}
+.cbre-c-listCards .cbre-c-ctaLink{
+    font-family:calibre,arial,sans-serif;
+    color:var(--color-primary-1)
+}
+.cbre-c-listCards .cbre-c-ctaLink:hover{
+    text-decoration:none!important
+}
+@media(min-width:768px){
+    .cbre-c-listCards--hasImage{
+        min-height:160px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--hasImage{
+        min-height:152px
+    }
+}
+.cbre-c-listCards--listFeed{
+    width:100%!important;
+    padding-top:24px;
+    border-top:1px solid var(--color-primary-5)
+}
+.cbre-c-listCards--listFeed:not(:last-child){
+    margin-bottom:48px
+}
+.cbre-c-listCards--listFeed .cbre-c-listCards__title{
+    margin-bottom:16px;
+    width:100%
+}
+@media(min-width:768px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__title{
+        width:75%
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__title{
+        line-height:4.8rem;
+        margin-bottom:8px;
+        width:100%
+    }
+}
+.cbre-c-listCards--listFeed .cbre-c-listCards__col-1{
+    display:flex;
+    flex-direction:column
+}
+@media(min-width:768px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__col-1{
+        flex-direction:row;
+        justify-content:space-between
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__col-1{
+        margin-bottom:0;
+        max-width:990px
+    }
+}
+.cbre-c-listCards--listFeed .cbre-c-listCards__col-2{
+    width:100%!important
+}
+@media(min-width:768px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__col-2{
+        width:66.66667%!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__col-2{
+        width:50%!important
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-listCards--listFeed .cbre-c-listCards__col-2{
+        width:45.83333%!important
+    }
+}
+.cbre-c-listCards--service .cbre-c-listCards{
+    width:100%!important
+}
+@media(min-width:768px){
+    .cbre-c-listCards--service .cbre-c-listCards{
+        width:62.5%!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--service .cbre-c-listCards{
+        width:50%!important
+    }
+    .cbre-c-listCards--service .cbre-c-listCards__title{
+        margin-bottom:16px
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-listCards--service .cbre-c-listCards{
+        width:45.83333%!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--service .cbre-c-listCards__title{
+        font-size:4.8rem;
+        line-height:1em
+    }
+}
+.cbre-c-listCards--person .cbre-c-listCards__title{
+    font-size:2.4rem
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--person .cbre-c-listCards__title{
+        font-size:4.8rem
+    }
+}
+.cbre-c-listCards--person .cbre-c-listCards__jobTitle{
+    padding-bottom:0
+}
+.cbre-c-listCards--person .cbre-c-listCards__licNumber{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    padding-bottom:16px;
+    color:var(--color-primary-1)
+}
+.cbre-c-listCards--person .cbre-c-listCards__description{
+    display:flex;
+    flex-direction:column;
+    color:var(--color-system-4)
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--person .cbre-c-listCards__description{
+        flex-direction:row
+    }
+}
+.cbre-c-listCards--person .cbre-c-listCards__description span{
+    padding-right:4px
+}
+@media(min-width:768px){
+    .cbre-c-listCards--person .cbre-c-listCards__twoCol{
+        padding-bottom:16px
+    }
+}
+.cbre-c-listCards--person .cbre-c-listCards__contact{
+    padding-bottom:16px
+}
+@media(min-width:768px){
+    .cbre-c-listCards--page .cbre-c-listCards__col-1{
+        display:inline-block;
+        position:relative
+    }
+}
+@media(min-width:768px){
+    .cbre-c-listCards--page .cbre-c-listCards__twoCol{
+        width:66.66667%
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--page .cbre-c-listCards__twoCol{
+        width:83.33333%
+    }
+}
+.cbre-c-listCards--page .cbre-c-listCards__title{
+    font-size:2.4rem;
+    line-height:3rem;
+    margin-bottom:0
+}
+@media(min-width:768px){
+    .cbre-c-listCards--page .cbre-c-listCards__title{
+        width:100%!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--page .cbre-c-listCards__title{
+        font-size:4.8rem;
+        line-height:1em;
+        margin-bottom:16px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-listCards--page .cbre-c-listCards__image{
+        position:absolute;
+        right:0;
+        top:0
+    }
+}
+.cbre-c-listCards--office .cbre-c-listCards__col-1{
+    align-items:flex-start;
+    flex-direction:column;
+    max-width:1110px
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--office .cbre-c-listCards__col-1{
+        flex-direction:row
+    }
+}
+@media(min-width:768px){
+    .cbre-c-listCards--office .cbre-c-listCards__twoCol{
+        width:66.66667%
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--office .cbre-c-listCards__twoCol{
+        width:50%
+    }
+}
+.cbre-c-listCards--office .cbre-c-listCards__title{
+    line-height:1em
+}
+.cbre-c-listCards--office .cbre-c-listCards__contact{
+    padding-bottom:16px
+}
+@media(min-width:768px){
+    .cbre-c-listCards--office .cbre-c-listCards__image{
+        position:absolute;
+        right:32px;
+        height:auto
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--office .cbre-c-listCards__image{
+        position:relative;
+        right:0;
+        width:152px
+    }
+}
+.cbre-c-listCards--office .cbre-c-listCards__image img{
+    top:4px
+}
+.cbre-c-listCards--office .cbre-c-listCards__officeInfo{
+    width:100%!important;
+    padding-top:24px;
+    display:flex;
+    flex-direction:column;
+    align-self:flex-start;
+    order:3
+}
+@media(min-width:768px){
+    .cbre-c-listCards--office .cbre-c-listCards__officeInfo{
+        width:29.16667%!important;
+        padding-top:0;
+        order:unset
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--office .cbre-c-listCards__officeInfo{
+        width:25%!important
+    }
+}
+.cbre-c-listCards--office .cbre-c-listCards__officeAddress{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    padding-bottom:24px;
+    color:var(--color-primary-4)
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--office .cbre-c-listCards__officeAddress{
+        font-size:2rem;
+        line-height:3.2rem
+    }
+}
+.cbre-c-listCards--office .cbre-c-listCards__location{
+    color:var(--color-primary-1);
+    display:flex
+}
+.cbre-c-listCards--office .cbre-c-listCards__location svg{
+    transition:fill .25s cubic-bezier(.75,.02,.5,1);
+    fill:currentColor
+}
+.cbre-c-listCards--office .cbre-c-listCards__location span{
+    transition:-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-primary-1);
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:2px;
+    text-decoration-thickness:1px
+}
+.cbre-c-listCards--office .cbre-c-listCards__location span:hover,.cbre-c-listCards--office .cbre-c-listCards__location span:active{
+    -webkit-text-decoration-color:var(--color-primary-1);
+    text-decoration-color:var(--color-primary-1)
+}
+.cbre-c-listCards--office .cbre-c-listCards__location:hover svg,.cbre-c-listCards--office .cbre-c-listCards__location:active svg{
+    fill:var(--color-primary-2)
+}
+.cbre-c-listCards--office .cbre-c-listCards__contactText{
+    margin-left:16px
+}
+.cbre-c-listCards--office .cbre-c-ctaLink{
+    margin-top:16px
+}
+@media(min-width:1024px){
+    .cbre-c-listCards--office .cbre-c-ctaLink{
+        margin-top:8px
+    }
+}

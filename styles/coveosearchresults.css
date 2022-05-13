@@ -1,0 +1,96 @@
+#wrapper .CoveoResultList[data-layout=card]{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    margin-top:15px;
+    display:flex;
+    flex-wrap:wrap
+}
+@media(min-width:768px){
+    #wrapper .CoveoResultList[data-layout=card]{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    #wrapper .CoveoResultList[data-layout=card]{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+#wrapper .coveo-card-layout-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-4px;
+    margin-left:-4px;
+    width:calc(100% + 48px)
+}
+@media(min-width:768px){
+    #wrapper .coveo-card-layout-container{
+        margin-right:-8px;
+        margin-left:-8px
+    }
+}
+@media(min-width:1024px){
+    #wrapper .coveo-card-layout-container{
+        min-width:100%
+    }
+}
+#wrapper .coveo-card-layout.CoveoResult{
+    padding-right:4px;
+    padding-left:4px;
+    width:100%!important;
+    margin:0;
+    flex:none;
+    border:0
+}
+@media(min-width:768px){
+    #wrapper .coveo-card-layout.CoveoResult{
+        padding-right:8px;
+        padding-left:8px
+    }
+}
+#wrapper .coveo-card-layout.CoveoResult>div{
+    width:100%
+}
+#wrapper .coveo-card-layout.CoveoResult h3 a{
+    transition:-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    transition:text-decoration-color .25s cubic-bezier(.75,.02,.5,1),-webkit-text-decoration-color .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-primary-1);
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:3px;
+    text-decoration-thickness:2px;
+    font-size:inherit;
+    line-height:inherit
+}
+#wrapper .coveo-card-layout.CoveoResult h3 a:hover,#wrapper .coveo-card-layout.CoveoResult h3 a:active{
+    -webkit-text-decoration-color:var(--color-primary-1);
+    text-decoration-color:var(--color-primary-1)
+}
+#wrapper .coveo-card-layout.CoveoResult p span a{
+    transition:all .25s cubic-bezier(.75,.02,.5,1);
+    color:var(--color-primary-4);
+    -webkit-text-decoration:underline solid transparent;
+    text-decoration:underline solid transparent;
+    text-underline-offset:2px;
+    text-decoration-thickness:1px
+}
+#wrapper .coveo-card-layout.CoveoResult p span a:hover,#wrapper .coveo-card-layout.CoveoResult p span a:active{
+    color:var(--color-primary-1);
+    -webkit-text-decoration-color:var(--color-primary-2);
+    text-decoration-color:var(--color-primary-2)
+}
+#wrapper .coveo-card-layout.CoveoResult div>a{
+    color:var(--color-primary-1);
+    text-decoration:none
+}
+@media(min-width:1024px){
+    #wrapper .coveo-card-layout.CoveoResult{
+        width:33.33333%!important;
+        margin-bottom:56px
+    }
+}

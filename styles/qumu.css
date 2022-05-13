@@ -1,0 +1,25 @@
+.cbre-c-qumu .component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-qumu .component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-qumu .component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:832px){
+    .cbre-c-qumu .component-content{
+        padding:0;
+        max-width:768px
+    }
+}

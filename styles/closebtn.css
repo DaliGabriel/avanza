@@ -1,0 +1,27 @@
+.cbre-c-closeBtn{
+    transition:all .25s cubic-bezier(.75,.02,.5,1);
+    width:48px;
+    height:48px;
+    color:var(--color-primary-1);
+    border:0;
+    background:0 0
+}
+.cbre-c-closeBtn svg{
+    fill:currentColor;
+    width:20px;
+    height:20px
+}
+.cbre-c-closeBtn:focus{
+    outline:0
+}
+.cbre-c-closeBtn:hover,.cbre-c-closeBtn:active{
+    color:var(--color-primary-2)
+}
+.cbre-c-closeBtn:focus-visible{
+    outline:0;
+    box-shadow:0 0 0 4px rgba(var(--color-primary-2-rgb),0.6)
+}
+.cbre-c-closeBtn.cbre-is-disabled,.cbre-c-closeBtn[disabled]{
+    pointer-events:none;
+    opacity:.3
+}

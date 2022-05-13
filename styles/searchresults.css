@@ -1,0 +1,220 @@
+.cbre-c-searchResults__wrapper>.component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-searchResults__wrapper>.component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-searchResults__wrapper>.component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+.cbre-c-searchResults__wrapper__main>div:not(:last-child){
+    margin-bottom:80px
+}
+.cbre-c-results{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-24px
+}
+@media(min-width:768px){
+    .cbre-c-results{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-results{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:1200px){
+    .cbre-c-results{
+        padding-left:152px
+    }
+}
+@media(min-width:1300px){
+    .cbre-c-results{
+        padding-left:160px
+    }
+}
+@media(min-width:1300px){
+    .cbre-c-results{
+        padding-left:168px
+    }
+}
+.cbre-c-results-grid{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-24px;
+    padding-left:8px
+}
+@media(min-width:768px){
+    .cbre-c-results-grid{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-results-grid{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:768px){
+    .cbre-c-results-grid{
+        padding-left:56px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-results-grid{
+        padding-left:0
+    }
+}
+.cbre-c-resultscount{
+    display:inline-block!important;
+    padding-bottom:40px;
+    padding-left:32px;
+    font-family:financier display,georgia,serif;
+    font-size:2rem
+}
+.cbre-c-resultsNumber{
+    display:inline-block!important;
+    font-family:space mono,monospace;
+    font-size:1.6rem;
+    font-weight:400;
+    opacity:.7
+}
+body .coveo-list-layout.CoveoResult{
+    font-family:calibre,arial,sans-serif;
+    font-size:1.6rem;
+    margin-bottom:48px;
+    border:none;
+    padding:0
+}
+body .coveo-list-layout.CoveoResult .cbre-c-ctaLink{
+    color:var(--color-primary-1)!important;
+    text-decoration:none!important
+}
+body .CoveoResultsPerPage{
+    display:none
+}
+body .CoveoPager{
+    font-family:calibre,arial,sans-serif;
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    margin-top:40px;
+    padding-bottom:56px;
+    display:block;
+    color:var(--color-text);
+    text-align:center
+}
+@media(min-width:768px){
+    body .CoveoPager{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    body .CoveoPager{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+@media(min-width:768px){
+    body .CoveoPager{
+        padding-bottom:64px
+    }
+}
+@media(min-width:1024px){
+    body .CoveoPager{
+        padding-bottom:112px
+    }
+}
+body .CoveoPager .coveo-pager-list-item{
+    font-size:1.6rem;
+    padding:0;
+    color:var(--color-primary-5);
+    border:none;
+    border-radius:0;
+    margin:0 4px;
+    background:0 0
+}
+@media(min-width:1024px){
+    body .CoveoPager .coveo-pager-list-item{
+        font-size:2rem;
+        margin:0 2px
+    }
+}
+body .CoveoPager .coveo-pager-list-item a{
+    transition:color .25s cubic-bezier(.75,.02,.5,1);
+    display:inline-block;
+    padding:0 2px
+}
+@media(min-width:1024px){
+    body .CoveoPager .coveo-pager-list-item a{
+        padding:0 6px
+    }
+}
+body .CoveoPager .coveo-pager-list-item.coveo-active,body .CoveoPager .coveo-pager-list-item:hover{
+    border-bottom:1px solid var(--color-primary-1)
+}
+body .CoveoPager .coveo-pager-list-item.coveo-active,body .CoveoPager .coveo-pager-list-item.coveo-active a,body .CoveoPager .coveo-pager-list-item a:hover{
+    font-weight:500;
+    color:var(--color-primary-1);
+    text-decoration:none
+}
+@media(min-width:1024px){
+    body .CoveoPager .coveo-pager-list .coveo-pager-previous{
+        margin-left:-16px
+    }
+}
+body .CoveoPager .coveo-pager-list .coveo-pager-next,body .CoveoPager .coveo-pager-list .coveo-pager-previous{
+    padding:0;
+    border:none
+}
+@media(min-width:1024px){
+    body .CoveoPager .coveo-pager-list .coveo-pager-next,body .CoveoPager .coveo-pager-list .coveo-pager-previous{
+        position:relative;
+        top:-2px
+    }
+}
+body .CoveoPager .coveo-pager-list .coveo-pager-next a,body .CoveoPager .coveo-pager-list .coveo-pager-previous a{
+    padding:4px 12px;
+    color:var(--color-primary-1)
+}
+@media(min-width:1024px){
+    body .CoveoPager .coveo-pager-list .coveo-pager-next a,body .CoveoPager .coveo-pager-list .coveo-pager-previous a{
+        padding:4px 16px
+    }
+}
+body .CoveoPager .coveo-pager-list .coveo-pager-next a:hover,body .CoveoPager .coveo-pager-list .coveo-pager-previous a:hover{
+    color:var(--color-primary-2)
+}
+body .CoveoPager .coveo-pager-list .coveo-pager-next svg,body .CoveoPager .coveo-pager-list .coveo-pager-previous svg{
+    color:currentColor!important
+}

@@ -1,0 +1,156 @@
+.cbre-c-pullQuote .component-content{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto
+}
+@media(min-width:768px){
+    .cbre-c-pullQuote .component-content{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote .component-content{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+.cbre-c-pullQuote__figure{
+    border-left:4px solid var(--color-primary-1);
+    background:rgba(var(--color-primary-3-rgb),0.1)
+}
+@media(min-width:768px){
+    .cbre-c-pullQuote__figure{
+        padding-right:32px;
+        padding-left:32px;
+        position:relative;
+        left:50%;
+        transform:translateX(-50%);
+        display:inline-flex;
+        justify-content:space-between;
+        max-width:596px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote__figure{
+        padding-right:56px;
+        padding-left:56px;
+        max-width:985px
+    }
+}
+.cbre-c-pullQuote__col-1{
+    padding-top:32px;
+    padding-bottom:32px;
+    padding-right:16px;
+    padding-left:16px
+}
+@media(min-width:768px){
+    .cbre-c-pullQuote__col-1{
+        padding-right:0;
+        padding-left:0;
+        max-width:512px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote__col-1{
+        max-width:536px
+    }
+}
+.cbre-c-pullQuote__quote{
+    font-family:financier display,georgia,serif;
+    font-size:2.4rem;
+    line-height:3rem;
+    color:var(--color-primary-1)
+}
+.cbre-c-pullQuote__quote p{
+    display:inline
+}
+.cbre-c-pullQuote__quote::before{
+    content:'\201C'
+}
+.cbre-c-pullQuote__quote::after{
+    content:'\201D'
+}
+.cbre-c-pullQuote__quote:not(:last-child){
+    margin-bottom:32px
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote__quote{
+        font-size:3.2rem;
+        line-height:3.6rem
+    }
+}
+.cbre-c-pullQuote__quote .scWebEditInput{
+    display:inline!important
+}
+.cbre-c-pullQuote__author{
+    font-size:2rem;
+    line-height:2.4rem;
+    letter-spacing:-.01em;
+    color:var(--color-primary-1)
+}
+.cbre-c-pullQuote__name:not(:last-child)::after{
+    content:', '
+}
+.cbre-c-pullQuote__title{
+    color:var(--color-system-4)
+}
+.cbre-c-pullQuote--noQuotation .cbre-c-pullQuote__quote::before,.cbre-c-pullQuote--noQuotation .cbre-c-pullQuote__quote::after{
+    display:none
+}
+.cbre-c-pullQuote__col-1{
+    padding-top:32px;
+    padding-bottom:32px;
+    padding-right:16px;
+    padding-left:16px
+}
+@media(min-width:768px){
+    .cbre-c-pullQuote__col-1{
+        padding-right:0;
+        padding-left:0;
+        max-width:512px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote__col-1{
+        max-width:536px
+    }
+}
+.cbre-c-pullQuote__col-2{
+    flex:none
+}
+@media(min-width:768px){
+    .cbre-c-pullQuote__image{
+        padding-top:32px;
+        padding-bottom:32px;
+        margin-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote__image{
+        margin-left:80px
+    }
+}
+.cbre-c-pullQuote__image img{
+    display:block;
+    width:100%;
+    -o-object-fit:cover;
+    object-fit:cover
+}
+@supports(aspect-ratio:auto){
+    .cbre-c-pullQuote__image img{
+        aspect-ratio:1/1
+    }
+}
+@media(min-width:768px){
+    .cbre-c-pullQuote__image img{
+        width:163px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-pullQuote__image img{
+        width:239px
+    }
+}

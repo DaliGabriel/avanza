@@ -1,0 +1,341 @@
+.cbre-c-xUp__wrapper{
+    padding-right:24px;
+    padding-left:24px;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:flex-end
+}
+@media(min-width:768px){
+    .cbre-c-xUp__wrapper{
+        padding-right:32px;
+        padding-left:32px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp__wrapper{
+        padding-right:56px;
+        padding-left:56px
+    }
+}
+.cbre-c-xUp__title{
+    font-family:financier display,georgia,serif;
+    font-size:4.8rem;
+    font-weight:400;
+    line-height:1em;
+    color:var(--color-primary-1);
+    margin-bottom:32px
+}
+@media(min-width:1024px){
+    .cbre-c-xUp__title{
+        font-size:6.4rem
+    }
+}
+@media(min-width:768px){
+    .cbre-c-xUp__title{
+        padding-right:40px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp__title{
+        flex:1
+    }
+}
+.cbre-c-xUp__seeAll{
+    margin-top:40px;
+    width:100%;
+    order:1;
+    text-align:right
+}
+@media(min-width:768px){
+    .cbre-c-xUp__seeAll{
+        margin-top:0;
+        margin-bottom:32px;
+        width:auto;
+        order:0
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp__seeAll{
+        margin-top:8px;
+        margin-bottom:44px
+    }
+}
+.cbre-c-xUp__grid-item>.row,.cbre-c-xUp__grid-item>.row>.component{
+    height:100%
+}
+.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-4px;
+    margin-left:-4px;
+    width:calc(100% + 48px)
+}
+@media(min-width:768px){
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid{
+        margin-right:-8px;
+        margin-left:-8px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid{
+        min-width:100%;
+        margin-bottom:-56px
+    }
+}
+.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item{
+    padding-right:4px;
+    padding-left:4px;
+    width:100%!important
+}
+@media(min-width:768px){
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item{
+        padding-right:8px;
+        padding-left:8px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item{
+        width:33.33333%!important;
+        margin-bottom:56px
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child,.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li{
+        width:45.83333%!important
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card]{
+        height:auto
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=__wrapper],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=__wrapper]{
+        display:block;
+        min-height:18vw
+    }
+}
+@media(min-width:1024px) and (min-width:1440px){
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=__wrapper],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=__wrapper]{
+        min-height:260px
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=__col-1]:not(div[class*=externalUrlCard]):not(div[class*=serviceCard]),.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=__col-2],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=__col-1]:not(div[class*=externalUrlCard]):not(div[class*=serviceCard]),.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=__col-2]{
+        width:calc(55% - 8px);
+        min-height:auto!important
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=__col-2],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=__col-2]{
+        padding:0;
+        margin:0
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=Image],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=Image]{
+        margin-top:16px;
+        position:unset
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=personImage],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=personImage]{
+        margin-top:8px
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=personImage] img,.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=personImage] img{
+        height:auto
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=ImageWrapper],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=personImage] img,.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=ImageWrapper],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=personImage] img{
+        position:absolute;
+        top:0;
+        right:0;
+        width:calc(45% - 8px);
+        min-width:0
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=Hover],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=Hover]{
+        padding:0;
+        position:relative;
+        -webkit-clip-path:none;
+        clip-path:none;
+        background:0 0
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=Hover]:before,.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=Hover]:after,.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=Hover]:before,.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=Hover]:after{
+        display:none
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=Content],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=Content]{
+        padding:0;
+        padding-right:16px
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=Content],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=HoverLink],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=Content],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=HoverLink]{
+        opacity:1
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] *[class$=HoverDesc],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] *[class$=HoverDesc]{
+        font-size:1.6rem;
+        line-height:2.2rem;
+        margin-top:0
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=HoverLink],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=HoverLink]{
+        justify-content:flex-start
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=Card] div[class$=personHoverLink],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=Card] div[class$=personHoverLink]{
+        margin-top:16px
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=personCard--personText],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=personCard--personText]{
+        height:auto
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=personCard--personText] div[class$=__wrapper],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=personCard--personText] div[class$=__wrapper]{
+        flex-direction:row
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=personCard--personText] div[class$=__col-1],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=personCard--personText] div[class$=__col-1]{
+        flex:none;
+        width:calc(50% - 8px)!important;
+        min-height:auto!important
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child div[class$=personCard--personText] div[class$=__col-2],.cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li div[class$=personCard--personText] div[class$=__col-2]{
+        padding:0;
+        flex:none;
+        width:calc(45% - 8px)!important;
+        align-items:flex-start
+    }
+    .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item:nth-last-child(n+2):nth-last-child(-n+2):first-child~li{
+        margin-left:8.33333%
+    }
+}
+body.on-page-editor .cbre-c-xUp:not(.cbre-c-xUp--horiz) .cbre-c-xUp__grid-item{
+    width:430px!important
+}
+@media(min-width:1024px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__wrapper{
+        justify-content:flex-start
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__seeAll{
+        margin-left:24px
+    }
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__grid{
+    flex:none;
+    display:flex;
+    align-items:stretch;
+    width:calc(100% + 40px);
+    margin-left:-16px;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    -ms-scroll-snap-type:x mandatory;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+    -webkit-overflow-scrolling:touch
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__grid::-webkit-scrollbar{
+    display:none
+}
+@media(min-width:768px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid{
+        width:calc(100% + 48px)
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid{
+        width:calc(100% + 72px)
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid{
+        width:calc(100% + 16px)
+    }
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__grid-item{
+    width:75%!important;
+    padding-left:16px;
+    flex:none;
+    position:relative;
+    scroll-snap-align:start;
+    scroll-snap-stop:always
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__grid-item:last-child{
+    padding-right:24px;
+    width:calc(75% + 24px)!important
+}
+@media(min-width:768px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item{
+        width:41.66667%!important
+    }
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item:last-child{
+        padding-right:32px;
+        width:calc(41.66667% + 32px)!important
+    }
+}
+@media(min-width:1024px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item{
+        width:calc(33.33333% - 18px)!important
+    }
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item:last-child{
+        padding-right:56px;
+        width:calc(33.33333% - 20px + 56px)!important
+    }
+}
+@media(min-width:1300px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item{
+        width:calc(25% - 15px)!important
+    }
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item:last-child{
+        padding-right:56px;
+        width:calc(25% - 12px + 56px)!important
+    }
+}
+@media(min-width:1440px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item{
+        width:25%!important
+    }
+    .cbre-c-xUp--horiz .cbre-c-xUp__grid-item:last-child{
+        width:25%!important;
+        padding-right:0
+    }
+}
+body.on-page-editor .cbre-c-xUp--horiz .cbre-c-xUp__grid-item{
+    width:320px!important
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__grid[data-js-counter=hide] .cbre-c-xUp__counter{
+    display:none
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__counter{
+    margin-right:16px;
+    display:inline-block
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__nav-btns{
+    display:none
+}
+@media(min-width:1024px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__nav-btns{
+        margin-top:8px;
+        margin-bottom:44px;
+        display:block
+    }
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__nav-btns[hidden]{
+    display:none
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__nav-items{
+    margin-top:48px;
+    margin-bottom:8px;
+    display:flex;
+    width:100%;
+    justify-content:center
+}
+@media(min-width:1024px){
+    .cbre-c-xUp--horiz .cbre-c-xUp__nav-items{
+        display:none
+    }
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__nav-item{
+    transition:background .25s cubic-bezier(.75,.02,.5,1);
+    display:block;
+    width:25px;
+    height:2px;
+    font-size:0;
+    color:transparent;
+    text-indent:-9999px;
+    overflow:hidden;
+    background:var(--color-primary-5)
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__nav-item:not(:last-child){
+    margin-right:5px
+}
+.cbre-c-xUp--horiz .cbre-c-xUp__nav-item:hover,.cbre-c-xUp--horiz .cbre-c-xUp__nav-item[data-js-active]{
+    background:var(--color-primary-1)
+}
