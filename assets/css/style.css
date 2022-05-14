@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -73,9 +76,6 @@ label {
 	margin-bottom: 20px;
 }
 /* Header */
-
-
-
 #head {
 	/*background: #181015 url( ../images/bg_header.jpg) no-repeat;*/
 	background-size: cover;
@@ -979,27 +979,54 @@ nav#filter a.current {
 	margin-bottom: 25px;
 }
 
-#pito{
+/*header section of index.html*/
+
+
+#header_hero_index{
 	position: relative;
 }
 
-.inner-image{
+.venta_de_casa_gps{
 	position: absolute;
 	height: 100px;
-	top: 1000px;
+	top: 500px;
 	left: 70px;
 }
 
+.renta_de_casa_gps{
+	position: absolute;
+	height: 100px;
+	top: 500px;
+	right: 70px;
+}
+
+.image_hero_index{
+	width: 100%;
+	height: 565px;
+	object-fit: cover;
+}
 
 
 @media (max-width: 500px){
-	.inner-image{
+	.venta_de_casa_gps{
 		position: absolute;
-		height: 50px;		
-		top: 250px;
-		right: 250px;
+		height: 50px;
+		width: 150px;		
+		top: 200px;
+		left: 5px;
 	} 
-	
+	.renta_de_casa_gps{
+		position: absolute;
+		height: 120px;		
+		top: 120px;
+		left: 180px;
+	} 
+	.image_hero_index{
+		width: 100%;
+		height: 560px;
+		/*The image don´t lose the cuality*/
+		object-fit: cover;
+	}
 }
 
 
@@ -1134,13 +1161,12 @@ height:480px !important;
 	margin-bottom: 25px;
 }
 
-
 }
 
 /*Mobile*/
 @media (max-width: 420px) {
 #camera_wrap_4, #head{
-height:760px !important;
+height:380px !important;
 }
 .da-slide h2 {
 	font-size: 28px;
@@ -1159,5 +1185,4 @@ height:760px !important;
 	text-align: left;
 	margin-bottom: 25px;
 }
-
 }
