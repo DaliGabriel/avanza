@@ -989,44 +989,163 @@ nav#filter a.current {
 .venta_de_casa_gps{
 	position: absolute;
 	height: 100px;
-	top: 500px;
-	left: 70px;
+	top: 150px;
+	left: 10px;
+	
 }
 
 .renta_de_casa_gps{
 	position: absolute;
-	height: 100px;
+	height: 200px;
+	top: 100px;
+	left: 500px;
+}
+
+.renta_de_edificio_gps{
+	position: absolute;
+	height: 80px;
+	top: 350px;
+	left: 200px;
+	transform: rotate(-40deg);
+}
+
+.venta_de_edificio_gps{
+	position: absolute;
+	height: 80px;
 	top: 500px;
-	right: 70px;
+	left: 250px;
+}
+
+.venta_de_depa_gps{
+	position: absolute;
+	height: 180px;
+	top: 100px;
+	right:300px;
+}
+
+.renta_de_depa_gps{
+	position: absolute;
+	height: 80px;
+	top: 250px;
+	right:500px;
+}
+
+.venta_de_terreno_gps{
+	position: absolute;
+	height: 80px;
+	top: 400px;
+	right:200px;
+}
+
+.renta_de_terreno_gps{
+	position: absolute;
+	height: 80px;
+	top: 300px;
+	right:10px;
+	transform: rotate(-40deg);
+}
+
+.renta_de_bus_gps{
+	position: absolute;
+	height: 180px;
+	top: 500px;
+	left: 600px;
+	transform: rotate(-40deg);
+}
+
+.renta_de_van_gps{
+	position: absolute;
+	height: 80px;
+	top: 500px;
+	left: 700px;
+	transform: rotate(-40deg);
 }
 
 .image_hero_index{
 	width: 100%;
-	height: 565px;
+	height: 620px;
 	object-fit: cover;
 }
 
 
-@media (max-width: 500px){
+@media (min-width: 320px) and (max-width: 500px){
 	.venta_de_casa_gps{
 		position: absolute;
-		height: 50px;
+		height: 70px;
 		width: 150px;		
-		top: 200px;
+		top: 205px;
 		left: 5px;
+		transform: rotate(40deg);
 	} 
 	.renta_de_casa_gps{
 		position: absolute;
-		height: 120px;		
-		top: 120px;
+		height: 130px;		
+		top: 155px;
 		left: 180px;
 	} 
+	.renta_de_edificio_gps{
+		position: absolute;
+		height: 50px;
+		top: 400px;
+		left: 20px;
+		transform: rotate(-40deg);
+	}
+	.venta_de_edificio_gps{
+		position: absolute;
+		height: 50px;
+		top: 500px;
+		left: 20px;
+		transform: rotate(40deg);
+	}
+	.venta_de_depa_gps{
+		position: absolute;
+		height: 120px;
+		top: 250px;
+		right:20px;
+	}
+	.renta_de_depa_gps{
+		position: absolute;
+		height: 50px;		
+		top: 400px;
+		right: 60px;
+		
+	}
+	.venta_de_terreno_gps{
+		position: absolute;
+		height: 50px;
+		top: 650px;
+		left:0px;
+		transform: rotate(-40deg);
+	}
+	.renta_de_terreno_gps{
+		position: absolute;
+		height: 50px;
+		top: 530px;
+		left: 255px;
+		transform: rotate(-40deg);
+	}
+	.renta_de_bus_gps{
+		position: absolute;
+		height: 120px;
+		top: 610px;
+		left: 180px;
+		transform: rotate(0deg);
+	}
+	.renta_de_van_gps{
+		position: absolute;
+		height: 50px;
+		top: 675px;
+		left: 250px;
+		transform: rotate(-40deg);
+	}
+	
 	.image_hero_index{
 		width: 100%;
-		height: 560px;
+		height: 780px;
 		/*The image don´t lose the cuality*/
 		object-fit: cover;
 	}
+	
 }
 
 
@@ -1092,28 +1211,93 @@ nav#filter a.current {
 /**
   MEDIA QUERIES
 */
-@media (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 1024px) {
 #head.secondary {
 	height: 80px;
 	min-height: 80px;
 	background-size: initial;
 }
-
-#camera_wrap_4, #head{
-height:480px !important;
+.venta_de_casa_gps{
+	position: absolute;
+	height: 70px;
+	width: 150px;		
+	top: 205px;
+	left: 205px;
+	transform: rotate(40deg);
+} 
+.renta_de_casa_gps{
+	position: absolute;
+	height: 130px;		
+	top: 155px;
+	left: 500px;
+} 
+.renta_de_edificio_gps{
+	position: absolute;
+	height: 50px;
+	top: 350px;
+	left: 170px;
+	transform: rotate(-40deg);
 }
-#head .lead {
-	font-size: 34px;
+.venta_de_edificio_gps{
+	position: absolute;
+	height: 50px;
+	top: 500px;
+	left: 20px;
+	transform: rotate(40deg);
+}
+.venta_de_depa_gps{
+	position: absolute;
+	height: 120px;
+	top: 250px;
+	right:120px;
+}
+.renta_de_depa_gps{
+	position: absolute;
+	height: 50px;		
+	top: 400px;
+	right: 320px;
+	
+}
+.venta_de_terreno_gps{
+	position: absolute;
+	height: 50px;
+	top: 650px;
+	left:150px;
+	transform: rotate(-40deg);
+}
+.renta_de_terreno_gps{
+	position: absolute;
+	height: 50px;
+	top: 530px;
+	left: 555px;
+	transform: rotate(-40deg);
+}
+.renta_de_bus_gps{
+	position: absolute;
+	height: 120px;
+	top: 610px;
+	left: 380px;
+	transform: rotate(0deg);
+}
+.renta_de_van_gps{
+	position: absolute;
+	height: 50px;
+	top: 675px;
+	left: 550px;
+	transform: rotate(-40deg);
+}
+
+.image_hero_index{
+	width: 100%;
+	height: 780px;
+	/*The image don´t lose the cuality*/
+	object-fit: cover;
 }
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-#quote-carousel {
-	margin-bottom: 0;
-	padding: 0 40px 30px 40px;
-	margin-top: 30px;
-}
+@media (min-width: 1224px) {
+
 }
 
 @media (max-width: 767px) {
