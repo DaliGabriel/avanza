@@ -988,7 +988,7 @@ nav#filter a.current {
 
 .venta_de_casa_gps{
 	position: absolute;
-	height: 100px;
+	height: 80px;
 	top: 150px;
 	left: 10px;
 	
@@ -1066,6 +1066,7 @@ nav#filter a.current {
 	height: 620px;
 	object-fit: cover;
 }
+
 
 
 @media (min-width: 320px) and (max-width: 500px){
